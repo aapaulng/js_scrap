@@ -13,7 +13,7 @@ Anaconda
  
 Python 3.6, BeautfifulSoup4, PyQt5
 ```
-conda install python python=3.6 BeautfifulSoup4 
+conda install python=3.6 BeautfifulSoup4 
 ```
 and
 ```
@@ -24,7 +24,7 @@ pip install PyQt5
 If you don't want to install the package one by one, and just wanted to create
 an exactly same environment.
 ```
-conda env create -f environment.yml -m myenv
+conda env create -f environment.yml -n myenv
 activate myenv
 ```
 Replace 'myenv' with anything you like
